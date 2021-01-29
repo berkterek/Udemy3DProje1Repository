@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+using UdemyProject1.Controllers;
 using UdemyProject1.Managers;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-namespace UdemyProject1.Controllers
+namespace UdemyProject1.Abstracts.Controllers
 {
-    public class WallController : MonoBehaviour
+    public abstract class WallController : MonoBehaviour
     {
         private void OnCollisionEnter(Collision other)
         {
